@@ -73,15 +73,15 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.other.inherited-class {
-    color: @green;
+    color: @light-blue;
   }
 }
 
 .keyword {
-  color: @purple;
+  color: @blue;
 
   &.control {
-    color: @purple;
+    color: @blue;
   }
 
   &.operator {
@@ -89,43 +89,43 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.other.special-method {
-    color: @blue;
+    color: @green;
   }
 
   &.other.unit {
-    color: @orange;
+    color: @light-green;
   }
 }
 
 .storage {
-  color: @purple;
+  color: @blue;
 }
 
 .constant {
-  color: @orange;
+  color: @light-green;
 
   &.character.escape {
-    color: @cyan;
+    color: @light-purple;
   }
 
   &.numeric {
-    color: @orange;
+    color: @light-green;
   }
 
   &.other.color {
-    color: @cyan;
+    color: @light-purple;
   }
 
   &.other.symbol {
-    color: @green;
+    color: @light-blue;
   }
 }
 
 .variable {
-  color: @red;
+  color: @light-red;
 
   &.interpolation {
-    color: darken(@red, 10%);
+    color: darken(@light-red, 10%);
   }
 
   &.parameter.function {
@@ -134,24 +134,24 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .invalid.illegal {
-  background-color: @red;
+  background-color: @light-red;
   color: @syntax-background-color;
 }
 
 .string {
-  color: @green;
+  color: @light-blue;
 
 
   &.regexp {
-    color: @cyan;
+    color: @light-purple;
 
     .source.ruby.embedded {
-      color: @orange;
+      color: @light-green;
     }
   }
 
   &.other.link {
-    color: @red;
+    color: @light-red;
   }
 }
 
@@ -170,7 +170,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
     &.heading,
     &.identity {
-      color: @blue;
+      color: @green;
     }
 
     &.bold {
@@ -179,13 +179,13 @@ atom-text-editor .search-results .marker.current-result .region,
     }
 
     &.italic {
-      color: @purple;
+      color: @blue;
       font-style: italic;
     }
   }
 
   &.section.embedded {
-    color: darken(@red, 10%);
+    color: darken(@light-red, 10%);
   }
 
 }
@@ -196,17 +196,17 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.function  {
-    color: @cyan;
+    color: @light-purple;
 
     &.any-method {
-      color: @blue;
+      color: @green;
     }
   }
 }
 
 .entity {
   &.name.function {
-    color: @blue;
+    color: @green;
   }
 
   &.name.class, &.name.type.class {
@@ -214,19 +214,19 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.name.section {
-    color: @blue;
+    color: @green;
   }
 
   &.name.tag {
-    color: @red;
+    color: @light-red;
     text-decoration: underline;
   }
 
   &.other.attribute-name {
-    color: @orange;
+    color: @light-green;
 
     &.id {
-      color: @blue;
+      color: @green;
     }
   }
 }
@@ -237,15 +237,15 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.link {
-    color: @orange;
+    color: @light-green;
   }
 
   &.require {
-    color: @blue;
+    color: @green;
   }
 
   &.selector {
-    color: @purple;
+    color: @blue;
   }
 
   &.separator {
@@ -260,48 +260,48 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .markup {
   &.bold {
-    color: @orange;
+    color: @light-green;
     font-weight: bold;
   }
 
   &.changed {
-    color: @purple;
+    color: @blue;
   }
 
   &.deleted {
-    color: @red;
+    color: @light-red;
   }
 
   &.italic {
-    color: @purple;
+    color: @blue;
     font-style: italic;
   }
 
   &.heading .punctuation.definition.heading {
-    color: @blue;
+    color: @green;
   }
 
   &.inserted {
-    color: @green;
+    color: @light-green;
   }
 
   &.list {
-    color: @red;
+    color: @light-red;
   }
 
   &.quote {
-    color: @orange;
+    color: @light-green;
   }
 
   &.raw.inline {
-    color: @green;
+    color: @light-blue;
   }
 }
 
 .source.gfm .markup {
   -webkit-font-smoothing: auto;
   &.heading {
-    color: @green;
+    color: @light-blue;
   }
 }
 

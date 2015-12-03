@@ -1,14 +1,15 @@
 {
-  "name": "pegasys-syntax",
+  "name": "pegasus-syntax",
   "theme": "syntax",
   "version": "0.0.0",
   "description": "A theme that is simply easy on the eyes.",
   "keywords": [
     "syntax",
     "theme",
-    "pegasys"
+    "pegasus",
+    "pega"
   ],
-  "repository": "https://github.com/mupchrch/pegasys-syntax",
+  "repository": "https://github.com/mupchrch/pegasus-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
